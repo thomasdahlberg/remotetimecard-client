@@ -3,7 +3,6 @@ import { Image, ImageBackground, StyleSheet, Text, View } from 'react-native';
 
 function WelcomeScreen(props) {
     return (
-        <div>
             <ImageBackground
                 style={styles.background}
                 source={require("../assets/splash.png")}
@@ -15,7 +14,6 @@ function WelcomeScreen(props) {
                 <View style={styles.loginButton}></View>
                 <View style={styles.registerButton}></View>
             </ImageBackground>
-        </div>
     );
 }
 
